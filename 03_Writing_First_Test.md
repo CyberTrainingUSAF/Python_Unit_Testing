@@ -13,8 +13,9 @@ if __name__ == '__main__':
     calc = Calculate()
     result = calc.add(2, 2)
     print result
-    ```
-    Clearly, this is a very simple class that is just making use of Python's built-in math function for adding and making it into a method you can call in your code. Save this code to a file named calculate.py, then execute this and see the result, like so.
+  ```
+   
+   Clearly, this is a very simple class that is just making use of Python's built-in math function for adding and making it into a method you can call in your code. Save this code to a file named calculate.py, then execute this and see the result, like so.
     
     ```
     $ python calculate.py
