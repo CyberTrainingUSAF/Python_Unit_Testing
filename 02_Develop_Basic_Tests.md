@@ -1,0 +1,15 @@
+# Implementing Unittest to develop basic tests
+
+In this Lesson, we will cover the following techniques:
+
+Asserting the basics
+Setting up and tearing down a test harness
+Running test cases from the command line
+Running a subset of test case methods
+Chaining together a suite of tests
+Defining test suites inside the test module
+Retooling old test code to run inside unittest
+Breaking down obscure tests into simple ones
+Testing the edges
+Testing corner cases by iteration
+
