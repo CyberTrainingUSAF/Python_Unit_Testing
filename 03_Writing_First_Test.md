@@ -21,3 +21,8 @@ if __name__ == '__main__':
     $ python calculate.py
     4
     ```
+   
+   # CHECKING VALUES WITH THE ASSERTEQUALS METHOD
+You have some working code, so why not write the tests to prove it and look into what could go wrong if the code is used in ways you didn't foresee? Try writing a test that checks to see that if you pass in the two numbers as 2, then you get the result as 4. Using the standard Python library, you can import the unittest package. This provides useful methods to make different kinds of assertions (for instance, checking whether something meets some condition) on your method. One of those assertions you can use is the assertEqual method. This method allows you to pass in two values and check whether they are equal.
+
+Create a test file called calculate_test.py, following the standard naming conventions of using the class name under test and appending with _test.
