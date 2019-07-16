@@ -42,3 +42,44 @@ Output
 ```
 $ python factorial.py 5
 ```
+# Which function to test ?
+As you can see fact(n) is function which is doing all calculations, so we should test that at least.
+
+# Our first test case
+Now we will write our first test case.
+
+```python
+import unittest
+from factorial import fact
+
+class TestFactorial(unittest.TestCase):
+    """
+    Our basic test class
+    """
+
+    def test_fact(self):
+        """
+        The actual test.
+        Any method which starts with ``test_`` will considered as a test case.
+        """
+        res = fact(5)
+        self.assertEqual(res, 120)
+
+
+if __name__ == '__main__':
+    unittest.main()
+```
+> Running the test:
+
+```
+$ python factorial_test.py
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+```
+
+
+
+
