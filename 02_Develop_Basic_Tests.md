@@ -30,3 +30,5 @@ Activate the virtual Python environment. This can vary, depending on which shell
 For the Windows platform, you can either select the folder where you want to create the ptc folder or you can directly get it created in your desired drive. Look at this screenshot:
 
 ![image](https://user-images.githubusercontent.com/47218880/61307084-4a5b6900-a7b3-11e9-98c3-1308292cbd3e.png)
+
+Finally, verify that the environment is active by checking the path of pip.
