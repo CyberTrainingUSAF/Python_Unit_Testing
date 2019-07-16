@@ -80,7 +80,8 @@ F
 FAIL: test_add_method_returns_correct_result (__main__.TestCalculate)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File  "/Users/user/workspace/python_testing/test/calculate_test.py", line 12, in test_add_method_returns_correct_result
+  File  "/Users/user/workspace/python_testing/test/calculate_test.py", line 12, 
+  in test_add_method_returns_correct_result
     self.assertEqual(4, self.calc.add(2,3))
 AssertionError: 4 != 5
 ----------------------------------------------------------------------
