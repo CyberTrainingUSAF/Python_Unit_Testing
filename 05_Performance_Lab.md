@@ -6,7 +6,7 @@ If the results don't match, an exception is thrown and unittest counts it as a t
 ## Getting ready
 Unittest was added to Python's standard batteries included library suite and doesn't require any extra installation.
 
-## How to do it...(LAB ASSIGNMENT)
+## How to do it...(Lab Assignment)
 With these steps, **you will code a simple program and then write some automated tests using unittest:**
 
 Create a new file called recipe1.py in which to put all of this recipe's code. Pick a class to test. This is known as the class under test. For this recipe, we'll pick a class that uses a simplistic Roman numeral converter:
