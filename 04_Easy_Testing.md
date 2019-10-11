@@ -274,7 +274,7 @@ def test_assert_items_equal(self):
     self.assertItemsEqual([1,2,3], [3,1,2])
 ```
 
-### **assertRaises(excClass, callableObj, *args, **kwargs, msg=None)**
+### **assertRaises(excClass, callableObj, \*args, \*\*kwargs, msg=None)**
 This assertion is used to check that under certain conditions exceptions are raised. You pass
 in the exception you expect, the callable that will raise the exception and any arguments to
 that callable. In the earlier example, this pops the first item from an empty list and results in
