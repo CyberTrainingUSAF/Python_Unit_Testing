@@ -20,15 +20,17 @@ A Python version, originally dubbed PyUnit, was created in 1999 and added to Pyt
 
 Unittest is the foundation of automated testing in the Python world. In this chapter, we will explore the basics of testing and asserting code functionality, building suites of tests, test situations to avoid, and finally testing edges and corner cases.
 
-For all the recipes in these lessons, we will use virtualenv (https://pypi.python.org/pypi/virtualenv) to create a controlled Python runtime environment. Unittest is part of the standard library, which requires no extra installation steps. But in later chapters, using virtualenv will allow us to conveniently install other test tools, without cluttering up our default Python installation. The steps to install virtualenv are as follows:
+For all the recipes in these lessons, we will use virtualenv (https://pypi.python.org/pypi/virtualenv) to create a controlled Python runtime environment. Unittest is part of the standard library, which requires no extra installation steps. But in later lessons, using virtualenv will allow us to conveniently install other test tools, without cluttering up our default Python installation. The steps to install virtualenv are as follows:
 
 To install virtualenv, either download it from the site mentioned previously or if you have Easy Install, just type: easy_install virtualenv. You can also use pip install virtualenv as well.
 For some systems, you may need to install it either as root or by using sudo.
 After installing virtualenv, use it to create a clean environment named ptc (an abbreviation used for Python Testing Cookbook) by using --no-site-packages.
-Activate the virtual Python environment. This can vary, depending on which shell you are using. Take a look at this screenshot:
-![image](https://user-images.githubusercontent.com/47218880/61306435-39f6be80-a7b2-11e9-9729-c36bd6b1a8a3.png)
+Activate the virtual Python environment. This can vary, depending on which shell you are using. Take a look at this screenshot:  
+![image](https://user-images.githubusercontent.com/47218880/61306435-39f6be80-a7b2-11e9-9729-c36bd6b1a8a3.png)  
 For the Windows platform, you can either select the folder where you want to create the ptc folder or you can directly get it created in your desired drive. Look at this screenshot:
 
 ![image](https://user-images.githubusercontent.com/47218880/61307084-4a5b6900-a7b3-11e9-98c3-1308292cbd3e.png)
 
 Finally, verify that the environment is active by checking the path of pip.
+
+
